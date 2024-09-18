@@ -1,0 +1,205 @@
+/* Configurações básicas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #002147;
+    color: #FFD700;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.profile-photo {
+    margin-right: 20px;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    width: 200px;
+    height: 200px;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: right;
+}
+
+.contact-info h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Menu de navegação */
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #FFD700;
+    color: #002147;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    background-color: #002147;
+    color: #FFD700;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    text-justify: inter-word;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+ul li img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+/* Outros estilos do layout */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.skill-item {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.skill-item:hover {
+    background-color: #b0b0b0;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.certification-item {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.certification-item:hover {
+    background-color: #b0b0b0;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.course-item {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.course-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.course-item a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #002147;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
